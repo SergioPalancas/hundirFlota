@@ -224,7 +224,7 @@ function colocarBarcosAleatorios() {
     document.getElementById("JuegoAleatorio").hidden = true;
     document.getElementById("JuegoMano").hidden = true;
     document.getElementById("mensajePantalla").hidden = false;
-    document.getElementById("titulo").hidde=true;
+    document.getElementById("titulo").hidden = true;
     miTablero = new tablero("tableroMio", false);
     dibujarTablero(miTablero);
     miTablero.generarBarcosAleatorio();
